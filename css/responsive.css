@@ -1,0 +1,112 @@
+@media screen and (max-width: 768px) {
+  /* Header */
+  .top-bar i {
+    display: inline-block;
+  }
+  .top-bar {
+    display: flex;
+    justify-content: space-around;
+  }
+  .top-bar img {
+    /* width: 50px; */
+    height: 20px;
+    margin-top: 5px;
+  }
+
+  .navigation-bar nav ul {
+    display: none;
+  }
+
+  /* Banner section */
+  .banner-section {
+    padding: 10% 15%;
+  }
+  .banner-content {
+    width: auto;
+    margin: 50px;
+  }
+
+  /* Features section */
+  .features-section {
+    width: 70%;
+  }
+  .cards {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .card{
+    border-bottom:  1px solid #f6f6f6;;
+  }
+  .hideCard{
+    display: none;
+  }
+  .showBox{
+    display: inline-block;
+  }
+
+  /* Product section */
+  .product-header{
+    flex-direction: column;
+    align-items: normal;
+  }
+
+  .product-links nav ul{
+    justify-content: end;
+    margin-top: 20px
+  }
+
+  .product-cards{
+    grid-template-columns: auto;
+  }
+
+  /* About Page */
+  .about-content{
+    flex-wrap: wrap;
+  }
+  .about-image{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  .about-text{
+    flex-basis: 100%;
+  }
+
+  /* Contact Page */
+  .contact-container{
+    flex-wrap: wrap;
+  }
+  .contact-map{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-form{
+    flex-basis: 100%;
+  }
+
+  /* Footer */
+  .content {
+    width: 70%;
+  }
+  .content input {
+    width: 70%;
+  }
+  .content button {
+    width: 74%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .footer-navigation nav ul {
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .lastLi{
+    grid-column: 1 / span 5;
+    justify-content: center;
+    margin-top: -5px;
+  }
+  .footer-icons {
+    gap: 15px;
+  }
+}
